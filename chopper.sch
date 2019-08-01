@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 9
+Sheet 8 9
 Title ""
 Date ""
 Rev ""
@@ -147,7 +147,7 @@ Text HLabel 7175 2775 1    50   Input ~ 0
 +BANK
 Connection ~ 6775 2775
 $Comp
-L Transistor_FET:IXFN420N10T Q901
+L KicadZeniteSolarSCHLibrary19:IXFN420N10T-Transistor_FET Q901
 U 1 1 5CE5A32B
 P 5450 3625
 F 0 "Q901" H 6378 3471 50  0000 L CNN
@@ -172,9 +172,11 @@ Connection ~ 6200 3350
 Wire Wire Line
 	6200 3350 6775 3350
 $Comp
-L Diode:DSEI2x101 D902
+L KicadZeniteSolarSCHLibrary19:DSEI2x101-Diode D902
 U 1 1 5CE5875A
 P 6100 2925
+AR Path="/5CE5875A" Ref="D902"  Part="1" 
+AR Path="/5CE88217/5CE5875A" Ref="D902"  Part="1" 
 F 0 "D902" H 6402 2821 50  0000 L CNN
 F 1 "DSEI2x101" H 6402 2730 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:SOT-227" H 5700 3325 50  0001 C CNN

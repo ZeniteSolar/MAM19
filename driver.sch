@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 9
+Sheet 6 9
 Title ""
 Date ""
 Rev ""
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Sensor_Current:IR2127S U701
+L KicadZeniteSolarSCHLibrary19:IR2127S-Sensor_Current U701
 U 1 1 5CE59215
 P 3275 3750
 F 0 "U701" H 3375 3800 50  0000 C CNN
@@ -248,7 +248,7 @@ $EndComp
 Wire Wire Line
 	5000 4050 5900 4050
 $Comp
-L Driver_FET:UCC2732 U702
+L KicadZeniteSolarSCHLibrary19:UCC2732-Driver_FET U702
 U 1 1 5CE5FB8F
 P 7050 4300
 F 0 "U702" H 7325 4465 50  0000 C CNN
@@ -530,9 +530,177 @@ Wire Wire Line
 Connection ~ 8950 4875
 Connection ~ 8950 4550
 Wire Wire Line
-	8950 4875 10700 4875
+	8950 4875 10325 4875
 Wire Wire Line
-	8950 4550 10700 4550
+	8950 4550 9925 4550
 Wire Wire Line
-	8950 4225 10700 4225
+	8950 4225 9525 4225
+$Comp
+L Connector_Generic:Conn_02x02_Counter_Clockwise J701
+U 1 1 5D1C123D
+P 9600 3975
+F 0 "J701" H 9750 4175 50  0000 R CNN
+F 1 "DRAIND" H 9775 4100 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 9600 3975 50  0001 C CNN
+F 3 "~" H 9600 3975 50  0001 C CNN
+	1    9600 3975
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9600 4175 9700 4175
+Wire Wire Line
+	9600 3675 9700 3675
+Wire Wire Line
+	9600 3675 9525 3675
+Wire Wire Line
+	9525 3675 9525 4175
+Wire Wire Line
+	9525 4175 9600 4175
+Connection ~ 9600 3675
+Connection ~ 9600 4175
+Wire Wire Line
+	9525 4175 9525 4225
+Connection ~ 9525 4175
+Connection ~ 9525 4225
+Wire Wire Line
+	9525 4225 10700 4225
+$Comp
+L Connector_Generic:Conn_02x02_Counter_Clockwise J702
+U 1 1 5D1CC809
+P 10000 3975
+F 0 "J702" H 10150 4175 50  0000 R CNN
+F 1 "GATED" H 10175 4100 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 10000 3975 50  0001 C CNN
+F 3 "~" H 10000 3975 50  0001 C CNN
+	1    10000 3975
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 3675 10000 3675
+Wire Wire Line
+	10000 3675 9925 3675
+Wire Wire Line
+	9925 3675 9925 4175
+Wire Wire Line
+	9925 4175 10000 4175
+Connection ~ 10000 3675
+Wire Wire Line
+	10100 4175 10000 4175
+Connection ~ 10000 4175
+Wire Wire Line
+	9925 4175 9925 4550
+Connection ~ 9925 4175
+Connection ~ 9925 4550
+Wire Wire Line
+	9925 4550 10700 4550
+$Comp
+L Connector_Generic:Conn_02x02_Counter_Clockwise J703
+U 1 1 5D1D7E97
+P 10400 3975
+F 0 "J703" H 10550 4175 50  0000 R CNN
+F 1 "SOURCED" H 10575 4100 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 10400 3975 50  0001 C CNN
+F 3 "~" H 10400 3975 50  0001 C CNN
+	1    10400 3975
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10500 3675 10400 3675
+Wire Wire Line
+	10400 3675 10325 3675
+Wire Wire Line
+	10325 3675 10325 4175
+Wire Wire Line
+	10325 4175 10400 4175
+Connection ~ 10400 3675
+Wire Wire Line
+	10400 4175 10500 4175
+Connection ~ 10400 4175
+Wire Wire Line
+	10325 4175 10325 4875
+Connection ~ 10325 4175
+Connection ~ 10325 4875
+Wire Wire Line
+	10325 4875 10700 4875
+$Comp
+L Connector_Generic:Conn_02x02_Counter_Clockwise J704
+U 1 1 5D216177
+P 9600 3425
+F 0 "J704" H 9750 3625 50  0000 R CNN
+F 1 "DRAINCH" H 9775 3550 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 9600 3425 50  0001 C CNN
+F 3 "~" H 9600 3425 50  0001 C CNN
+	1    9600 3425
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Counter_Clockwise J706
+U 1 1 5D2178F8
+P 10400 3425
+F 0 "J706" H 10550 3625 50  0000 R CNN
+F 1 "SOURCECH" H 10575 3550 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 10400 3425 50  0001 C CNN
+F 3 "~" H 10400 3425 50  0001 C CNN
+	1    10400 3425
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 3625 10000 3625
+Wire Wire Line
+	10500 3625 10400 3625
+Wire Wire Line
+	10500 3125 10400 3125
+Wire Wire Line
+	10400 3125 10325 3125
+Wire Wire Line
+	10325 3125 10325 3625
+Connection ~ 10400 3125
+Connection ~ 10325 3675
+Wire Wire Line
+	10400 3625 10325 3625
+Connection ~ 10400 3625
+Connection ~ 10325 3625
+Wire Wire Line
+	10325 3625 10325 3675
+Wire Wire Line
+	10100 3125 10000 3125
+Wire Wire Line
+	10000 3125 9925 3125
+Wire Wire Line
+	9925 3125 9925 3625
+Connection ~ 10000 3125
+Connection ~ 9925 3675
+Wire Wire Line
+	10000 3625 9925 3625
+Connection ~ 10000 3625
+Connection ~ 9925 3625
+Wire Wire Line
+	9925 3625 9925 3675
+Wire Wire Line
+	9700 3625 9600 3625
+Wire Wire Line
+	9525 3675 9525 3625
+Wire Wire Line
+	9525 3625 9600 3625
+Connection ~ 9525 3675
+Connection ~ 9600 3625
+Wire Wire Line
+	9525 3625 9525 3125
+Wire Wire Line
+	9525 3125 9600 3125
+Connection ~ 9525 3625
+Connection ~ 9600 3125
+Wire Wire Line
+	9600 3125 9700 3125
+$Comp
+L Connector_Generic:Conn_02x02_Counter_Clockwise J705
+U 1 1 5D216B3B
+P 10000 3425
+F 0 "J705" H 10150 3625 50  0000 R CNN
+F 1 "GATECH" H 10175 3550 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 10000 3425 50  0001 C CNN
+F 3 "~" H 10000 3425 50  0001 C CNN
+	1    10000 3425
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

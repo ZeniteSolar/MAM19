@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 9
+Sheet 5 9
 Title ""
 Date ""
 Rev ""
@@ -62,7 +62,7 @@ F 3 "https://www.vishay.com/docs/85557/ll4148.pdf" H 4875 3275 50  0001 C CNN
 	1    4875 3275
 	-1   0    0    1   
 $EndComp
-Text HLabel 3575 3275 0    60   Input ~ 0
+Text HLabel 2750 3275 0    60   Input ~ 0
 +18V_IN
 $Comp
 L Device:C_Small C603
@@ -161,56 +161,76 @@ Wire Wire Line
 Wire Wire Line
 	5025 3275 5325 3275
 Connection ~ 5325 3275
+Connection ~ 3050 3275
+Connection ~ 3100 3275
+Wire Wire Line
+	3100 3225 3100 3275
+Wire Wire Line
+	3600 3275 3600 3325
+Connection ~ 3600 3275
+Wire Wire Line
+	3050 3425 3650 3425
+Wire Wire Line
+	3100 3275 3100 3325
+Wire Wire Line
+	3050 3275 3100 3275
+Wire Wire Line
+	3050 3425 3050 3275
+Wire Wire Line
+	3650 3275 3650 3425
+Wire Wire Line
+	3600 3275 3650 3275
+Wire Wire Line
+	3600 3225 3600 3275
+Wire Wire Line
+	3725 3275 3725 3325
+Connection ~ 3725 3275
+Wire Wire Line
+	3675 3425 4275 3425
+Wire Wire Line
+	3675 3275 3675 3425
+Wire Wire Line
+	3725 3275 3675 3275
+Wire Wire Line
+	4225 3275 4225 3325
+Connection ~ 4225 3275
+Wire Wire Line
+	4225 3275 4275 3275
+Wire Wire Line
+	4225 3225 4225 3275
+Wire Wire Line
+	3725 3225 3725 3275
+Wire Wire Line
+	4275 3275 4725 3275
+Connection ~ 4275 3275
+Wire Wire Line
+	2750 3275 3050 3275
+Wire Wire Line
+	4275 3425 4275 3275
 $Comp
-L Connector_Generic:Conn_02x02_Counter_Clockwise J+18Driver1
-U 1 1 5D0AB3A4
-P 4400 3275
-F 0 "J+18Driver1" H 4450 3492 50  0000 C CNN
-F 1 "Driver" H 4450 3401 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 4400 3275 50  0001 C CNN
-F 3 "~" H 4400 3275 50  0001 C CNN
-	1    4400 3275
+L Connector_Generic:Conn_02x02_Counter_Clockwise J181
+U 1 1 5D19FD02
+P 3300 3225
+F 0 "J181" H 3350 3442 50  0000 C CNN
+F 1 "+18C" H 3350 3351 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 3300 3225 50  0001 C CNN
+F 3 "~" H 3300 3225 50  0001 C CNN
+	1    3300 3225
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x02_Counter_Clockwise J+18Controle1
-U 1 1 5D0AB656
-P 3825 3275
-F 0 "J+18Controle1" H 3875 3492 50  0000 C CNN
-F 1 "Controle" H 3875 3401 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 3825 3275 50  0001 C CNN
-F 3 "~" H 3825 3275 50  0001 C CNN
-	1    3825 3275
+L Connector_Generic:Conn_02x02_Counter_Clockwise J182
+U 1 1 5D1A06C7
+P 3925 3225
+F 0 "J182" H 3975 3442 50  0000 C CNN
+F 1 "+18D" H 3975 3351 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 3925 3225 50  0001 C CNN
+F 3 "~" H 3925 3225 50  0001 C CNN
+	1    3925 3225
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3625 3275 3625 3375
-Wire Wire Line
-	3575 3275 3625 3275
-Connection ~ 3625 3275
-Wire Wire Line
-	4125 3275 4125 3375
-Wire Wire Line
-	4200 3275 4200 3375
-Wire Wire Line
-	4700 3275 4700 3375
-Wire Wire Line
-	4725 3275 4700 3275
-Connection ~ 4700 3275
-Wire Wire Line
-	3625 3375 3625 3450
-Wire Wire Line
-	3625 3450 4125 3450
-Wire Wire Line
-	4125 3450 4125 3375
-Connection ~ 3625 3375
-Connection ~ 4125 3375
-Wire Wire Line
-	4200 3375 4200 3450
-Wire Wire Line
-	4200 3450 4700 3450
-Wire Wire Line
-	4700 3450 4700 3375
-Connection ~ 4200 3375
-Connection ~ 4700 3375
+	3675 3275 3650 3275
+Connection ~ 3675 3275
+Connection ~ 3650 3275
 $EndSCHEMATC

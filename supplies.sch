@@ -51,18 +51,7 @@ F 3 "" H 5200 4400 50  0001 C CNN
 	1    5200 4400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Diode:LL4148 D501
-U 1 1 5A009BD5
-P 4450 3950
-F 0 "D501" H 4450 4050 50  0000 C CNN
-F 1 "LL4148" H 4450 3850 50  0000 C CNN
-F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 4450 3775 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85557/ll4148.pdf" H 4450 3950 50  0001 C CNN
-	1    4450 3950
-	-1   0    0    1   
-$EndComp
-Text HLabel 3950 3950 0    60   Input ~ 0
+Text HLabel 4025 3950 0    60   Input ~ 0
 +18V_IN
 $Comp
 L Device:C_Small C503
@@ -88,13 +77,10 @@ F 3 "" H 6850 4400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4900 4800 4900 4500
-Connection ~ 4900 3950
 Wire Wire Line
 	5200 4500 5200 4800
 Connection ~ 4900 4800
 Connection ~ 5200 3950
-Wire Wire Line
-	4300 3950 3950 3950
 Wire Wire Line
 	6200 3950 6500 3950
 Wire Wire Line
@@ -161,6 +147,20 @@ F 3 "~" H 5200 4900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5200 3450 5200 3950
+$Comp
+L Diode:LL4148 D501
+U 1 1 5A009BD5
+P 4675 3950
+F 0 "D501" H 4675 4050 50  0000 C CNN
+F 1 "LL4148" H 4675 3850 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 4675 3775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85557/ll4148.pdf" H 4675 3950 50  0001 C CNN
+	1    4675 3950
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	4600 3950 4900 3950
+	4025 3950 4525 3950
+Wire Wire Line
+	4825 3950 4900 3950
+Connection ~ 4900 3950
 $EndSCHEMATC
