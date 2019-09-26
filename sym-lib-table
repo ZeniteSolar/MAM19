@@ -3,5 +3,5 @@
   (lib (name basicsensormodule-rescue)(type Legacy)(uri ${KIPRJMOD}/basicsensormodule-rescue.lib)(options "")(descr ""))
   (lib (name MAB19-rescue)(type Legacy)(uri ${KIPRJMOD}/MAB19-rescue.lib)(options "")(descr ""))
   (lib (name MAM19-rescue)(type Legacy)(uri ${KIPRJMOD}/MAM19-rescue.lib)(options "")(descr ""))
-  (lib (name KicadZeniteSolarSCHLibrary19)(type Legacy)(uri C:/Users/Aluno/Desktop/MAM19/KicadZeniteSolarSCHLibrary19/KicadZeniteSolarSCHLibrary19.lib)(options "")(descr ""))
+  (lib (name KicadZeniteSolarSCHLibrary19)(type Legacy)(uri ${KIPRJMOD}/KicadZeniteSolarSCHLibrary19/KicadZeniteSolarSCHLibrary19.lib)(options "")(descr ""))
 )
