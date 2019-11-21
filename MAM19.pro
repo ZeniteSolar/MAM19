@@ -1,4 +1,4 @@
-update=qui 26 set 2019 16:03:13 -03
+update=qua 20 nov 2019 20:32:10 -03
 version=1
 last_client=kicad
 [general]
@@ -49,7 +49,7 @@ TrackWidth8=3
 TrackWidth9=5
 ViaDiameter1=1.5
 ViaDrill1=0.8
-ViaDiameter2=1
+ViaDiameter2=5
 ViaDrill2=0.5
 dPairWidth1=0.508
 dPairGap1=0.508
@@ -80,7 +80,7 @@ SolderPasteClearance=0
 SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
-Type=3
+Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
