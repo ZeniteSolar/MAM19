@@ -628,7 +628,7 @@ U 1 1 5D2178F8
 P 10400 3425
 F 0 "J706" H 10550 3625 50  0000 R CNN
 F 1 "SOURCECH" H 10575 3550 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 10400 3425 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical_SMD" H 10400 3425 50  0001 C CNN
 F 3 "~" H 10400 3425 50  0001 C CNN
 	1    10400 3425
 	0    -1   -1   0   

@@ -55,64 +55,9 @@ Wire Wire Line
 Connection ~ 5675 4325
 Wire Wire Line
 	6200 4150 6300 4150
-Wire Wire Line
-	6775 4150 6775 3900
 Connection ~ 6200 4325
 Text HLabel 7175 4325 3    50   Input ~ 0
 -BANK
-$Comp
-L Device:C_Small C901
-U 1 1 5CE89C5B
-P 6775 3800
-F 0 "C901" H 6867 3846 50  0000 L CNN
-F 1 "C_Small" H 6867 3755 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L9.0mm_W4.0mm_P7.50mm_MKT" H 6775 3800 50  0001 C CNN
-F 3 "~" H 6775 3800 50  0001 C CNN
-	1    6775 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R902
-U 1 1 5CE89D34
-P 6925 3550
-F 0 "R902" H 6984 3596 50  0000 L CNN
-F 1 "4R7" H 6984 3505 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal" H 6925 3550 50  0001 C CNN
-F 3 "~" H 6925 3550 50  0001 C CNN
-	1    6925 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D901
-U 1 1 5CE89D85
-P 6600 3550
-F 0 "D901" V 6646 3482 50  0000 R CNN
-F 1 "ES3B" V 6555 3482 50  0000 R CNN
-F 2 "Diode_SMD:D_SMB-SMC_Universal_Handsoldering" V 6600 3550 50  0001 C CNN
-F 3 "~" V 6600 3550 50  0001 C CNN
-	1    6600 3550
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6775 3700 6600 3700
-Wire Wire Line
-	6600 3700 6600 3650
-Wire Wire Line
-	6775 3700 6925 3700
-Wire Wire Line
-	6925 3700 6925 3650
-Connection ~ 6775 3700
-Wire Wire Line
-	6925 3450 6925 3425
-Wire Wire Line
-	6925 3425 6775 3425
-Wire Wire Line
-	6600 3425 6600 3450
-Wire Wire Line
-	6775 3425 6775 3350
-Connection ~ 6775 3425
-Wire Wire Line
-	6775 3425 6600 3425
 $Comp
 L power:+36V #PWR0119
 U 1 1 5CE8AB53
@@ -138,7 +83,6 @@ Wire Wire Line
 	7150 3300 6775 3300
 Wire Wire Line
 	6775 3300 6775 3350
-Connection ~ 6775 3350
 Wire Wire Line
 	6775 2775 6775 2925
 Wire Wire Line
@@ -162,9 +106,6 @@ Wire Wire Line
 Connection ~ 6200 4150
 Wire Wire Line
 	6300 4025 6300 4150
-Connection ~ 6300 4150
-Wire Wire Line
-	6300 4150 6775 4150
 Wire Wire Line
 	5675 3825 5975 3825
 Connection ~ 5675 3825
