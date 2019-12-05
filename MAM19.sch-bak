@@ -521,7 +521,7 @@ U 1 1 5D1F81B5
 P 10400 3100
 F 0 "J108" H 10450 3317 50  0000 C CNN
 F 1 "HOLD2" H 10450 3226 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 10400 3100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical_SMD" H 10400 3100 50  0001 C CNN
 F 3 "~" H 10400 3100 50  0001 C CNN
 	1    10400 3100
 	1    0    0    -1  
