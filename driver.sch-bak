@@ -617,7 +617,7 @@ U 1 1 5D216177
 P 9600 3425
 F 0 "J704" H 9750 3625 50  0000 R CNN
 F 1 "DRAINCH" H 9775 3550 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical_SMD" H 9600 3425 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 9600 3425 50  0001 C CNN
 F 3 "~" H 9600 3425 50  0001 C CNN
 	1    9600 3425
 	0    -1   -1   0   
@@ -687,7 +687,7 @@ U 1 1 5D216B3B
 P 10000 3425
 F 0 "J705" H 10150 3625 50  0000 R CNN
 F 1 "GATECH" H 10175 3550 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical_SMD" H 10000 3425 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 10000 3425 50  0001 C CNN
 F 3 "~" H 10000 3425 50  0001 C CNN
 	1    10000 3425
 	0    -1   -1   0   
