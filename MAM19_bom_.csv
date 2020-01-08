@@ -1,0 +1,69 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,"Unpolarized capacitor, small symbol",C_Small,C201 C202 C205 C401 C402 C405 C406 C502 C503 C602 C603 C701 C702 C703 C704,100nF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,15,
+2,"Unpolarized capacitor, small symbol",C_Small,C902 C903 C904 C905 C906,10nF 250V,C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,5,~
+3,"Unpolarized capacitor, small symbol",C_Small,C706,10uF,CP_EIA-6032-20_AVX-F_Pad2.25x2.35mm_HandSolder,1,~
+4,"Polarized capacitor, small US symbol",CP1_Small,C501 C504 C601 C604,1uF,CP_EIA-6032-20_AVX-F_Pad2.25x2.35mm_HandSolder,4,
+5,"Unpolarized capacitor, small symbol",C_Small,C705,1uF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~
+6,"Unpolarized capacitor, small symbol",C_Small,C203 C204 C403 C404,22pF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,4,
+7,"Unpolarized capacitor, small symbol",C_Small,C801 C802 C803 C804 C805 C806,4700uF,CP_Radial_D35.0mm_P10.00mm_SnapIn,6,~
+8,"Diode, small symbol",D_Small,D701,BAV102,D_MiniMELF_Handsoldering,1,~
+9,"Diode, small symbol",D_Small,D702,BYD77,D_MELF,1,~
+10,,DSEI2x101-Diode,D902,DSEI2x101,SOT-227,1,
+11,"Diode, small symbol",D_Small,D703,ES3B,D_SMC_Handsoldering,1,~
+12,"Light emitting diode, small symbol",LED_Small,D403,LED_RED,LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,
+13,"100V 0.15A standard switching diode, MiniMELF",LL4148,D401 D501 D601,LL4148,D_MiniMELF_Handsoldering,3,http://www.vishay.com/docs/85557/ll4148.pdf
+14,"Bidirectional dual transient-voltage-suppression diode, center on pin 3",D_TVS_x2_AAC,D201,pesd1can,SOT-23_Handsoldering,1,https://assets.nexperia.com/documents/data-sheet/PESD1CAN.pdf
+15,"Zener diode, small symbol",D_Zener_Small,DZ701 DZ901,15V,D_MiniMELF_Handsoldering,2,~
+16,"Fuse, small symbol",Fuse_Small,F501,500mA,Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder,1,~
+17,"Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x02_Counter_Clockwise,J181,+18C,PinSocket_2x02_P2.54mm_Vertical_SMD,1,~
+18,"Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x02_Counter_Clockwise,J182,+18D,PinHeader_2x02_P2.54mm_Vertical,1,~
+19,"Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x02_Counter_Clockwise,J704,DRAINCH,PinHeader_2x02_P2.54mm_Vertical,1,~
+20,"Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x02_Counter_Clockwise,J701,DRAIND,PinHeader_2x02_P2.54mm_Vertical,1,~
+21,"Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x02_Counter_Clockwise,J705,GATECH,PinHeader_2x02_P2.54mm_Vertical,1,~
+22,"Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x02_Counter_Clockwise,J702,GATED,PinHeader_2x02_P2.54mm_Vertical,1,~
+23,"Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x02_Counter_Clockwise,J101,GNDC1,PinSocket_2x02_P2.54mm_Vertical_SMD,1,~
+24,"Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x02_Counter_Clockwise,J102,GNDC2,PinSocket_2x02_P2.54mm_Vertical_SMD,1,~
+25,"Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x02_Counter_Clockwise,J103,GNDD1,PinHeader_2x02_P2.54mm_Vertical,1,~
+26,"Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x02_Counter_Clockwise,J104,GNDD2,PinHeader_2x02_P2.54mm_Vertical,1,~
+27,"Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x02_Counter_Clockwise,J107,HOLD1,PinHeader_2x02_P2.54mm_Vertical,1,~
+28,"Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x02_Counter_Clockwise,J108,HOLD2,PinHeader_2x02_P2.54mm_Vertical,1,~
+29,"Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Screw_Terminal_01x04,J06,PWM/IR C,PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left,1,~
+30,"Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Screw_Terminal_01x04,J105,PWM/IR D,PinSocket_1x04_P2.54mm_Vertical_SMD_Pin1Left,1,~
+31,"RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61, Shielded",RJ45_Shielded,J601 J602,RJ45,RJ45_YH59_01,2,
+32,"Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x02_Counter_Clockwise,J706,SOURCECH,PinHeader_2x02_P2.54mm_Vertical_SMD,1,~
+33,"Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x02_Counter_Clockwise,J703,SOURCED,PinHeader_2x02_P2.54mm_Vertical,1,~
+34,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04,J401,USART,PinHeader_1x04_P2.54mm_Vertical,1,~
+35,,IXFN420N10T-Transistor_FET,Q901,IXFN420N10T,SOT-227,1,
+36,"Resistor, small symbol",R_Small,R704,0,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~
+37,"Resistor, small symbol",R_Small,R706,10,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~
+38,"Resistor, small symbol",R_Small,R203 R401 R702 R707 R901,10k,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,5,
+39,"Resistor, small symbol",R_Small,R201,120,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,
+40,"Resistor, small symbol",R_Small,R402 R403,1k,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,
+41,"Resistor, small symbol",R_Small,R701,22K,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~
+42,"Resistor, small symbol",R_Small,R406,330,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~
+43,"Resistor, small symbol",R_Small,R705,4R7,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~
+44,"Resistor, small symbol",R_Small,R202,4k7,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,
+45,"Resistor, small symbol",R_Small,R703,820,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~
+46,"10MHz, 4kB Flash, 512B SRAM, 256B EEPROM, DIP-28",ATmega328P-PU,U401,ATMEGA328P-PU,DIP-28_W7.62mm_Socket,1,http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8025-8-bit-AVR-Microcontroller-ATmega48P-88P-168P_Datasheet.pdf
+47,,IR2127S-Sensor_Current,U701,IR2127S,SOIC-8_3.9x4.9mm_P1.27mm,1,
+48,"Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220",LM7805_TO220,U501,LM7805,TO-220-3_Horizontal_TabDown_SMD,1,https://www.sparkfun.com/datasheets/Components/LM7805.pdf
+49,"Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220",LM7805_TO220,U601,LM7815,TO-220-3_Horizontal_TabDown_SMD,1,https://www.sparkfun.com/datasheets/Components/LM7805.pdf
+50,"Stand-Alone CAN Controller with SPI Interface, SOIC-18",MCP2515-xSO,U202,MCP2515-xSO,SOIC-18W_7.5x11.6mm_P1.27mm,1,http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf
+51,"High-Speed CAN Transceiver, 1Mbps, 5V supply, SPLIT pin, -40C to +125C, SOIC8 package",MCP2561-E-SN,U201,MCP2551-I/SN,SOIC-8_3.9x4.9mm_P1.27mm,1,http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
+52,,UCC2732-Driver_FET,U702,UCC2732,MSOP-8-1EP_3x3mm_P0.65mm_EP2.54x2.8mm_ThermalVias,1,
+53,"Two pin crystal, small symbol",Crystal_Small,Y201 Y401,16MHz,Crystal_HC49-U_Vertical,2,http://www.farnell.com/datasheets/321153.pdf
+
+
+
+
+
+Component Groups:,53
+Component Count:,92
+Fitted Components:,92
+Number of PCBs:,1
+Total components:,92
+Schematic Version:,
+Schematic Date:,
+BoM Date:,Wed 08 Jan 2020 02:26:26 PM -03
+Schematic Source:,/home/joaoantoniocardoso/ZeniteSolar/2019/MAM19/MAM19.sch
+KiCad Version:,Eeschema 5.1.5
