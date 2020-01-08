@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:MAM19-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -163,7 +162,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 4850 5050 4850
 Wire Wire Line
-	5050 4750 4950 4750
+	5050 3750 4950 3750
 Wire Wire Line
 	7450 4350 7550 4350
 Wire Wire Line
@@ -448,24 +447,24 @@ Wire Wire Line
 Connection ~ 5975 4250
 NoConn ~ 4950 2950
 Wire Wire Line
-	4950 4650 5050 4650
+	4950 3650 5050 3650
 NoConn ~ 5050 3850
 NoConn ~ 5050 3950
 NoConn ~ 5050 4050
 NoConn ~ 5050 4150
-NoConn ~ 5050 4650
-NoConn ~ 5050 4750
+NoConn ~ 5050 3650
+NoConn ~ 5050 3750
 NoConn ~ 5050 4850
 NoConn ~ 5050 4950
 NoConn ~ 5050 5050
-Text HLabel 5275 3650 2    50   Output ~ 0
+Text HLabel 5275 4750 2    50   Output ~ 0
 PWM
 Wire Wire Line
-	4950 3750 5275 3750
-Text HLabel 5275 3750 2    50   Output ~ 0
+	4950 4750 5275 4750
+Text HLabel 5275 4650 2    50   Output ~ 0
 IR_2127_FAULT
 Wire Wire Line
-	4950 3650 5275 3650
+	4950 4650 5275 4650
 $Comp
 L Device:LED_Small D403
 U 1 1 59FE5354
